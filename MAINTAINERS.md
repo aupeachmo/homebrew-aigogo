@@ -6,12 +6,12 @@ If the automation fails, you can update the formula manually:
 # Get checksums from the release
 VERSION=X.Y.Z
 BASE_URL="https://github.com/aupeachmo/aigogo/releases/download/v${VERSION}"
-curl -sL "${BASE_URL}/aigogo-darwin-amd64.tar.gz.sha256"
-curl -sL "${BASE_URL}/aigogo-darwin-arm64.tar.gz.sha256"
-curl -sL "${BASE_URL}/aigogo-linux-amd64.tar.gz.sha256"
-curl -sL "${BASE_URL}/aigogo-linux-arm64.tar.gz.sha256"
+curl -sL "${BASE_URL}/aigg-darwin-amd64.tar.gz.sha256"
+curl -sL "${BASE_URL}/aigg-darwin-arm64.tar.gz.sha256"
+curl -sL "${BASE_URL}/aigg-linux-amd64.tar.gz.sha256"
+curl -sL "${BASE_URL}/aigg-linux-arm64.tar.gz.sha256"
 
-# Edit Formula/aigogo.rb with the new version and SHA256 hashes
+# Edit Formula/aigg.rb with the new version and SHA256 hashes
 # Commit and push
 ```
 
