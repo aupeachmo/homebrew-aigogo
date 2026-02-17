@@ -1,28 +1,28 @@
 class Aigg < Formula
   desc "Make packaging and distributing your AI agents a breeze"
   homepage "https://github.com/aupeachmo/aigogo"
-  version "0.0.7"
+  version "0.0.8"
   license "MPL-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.7/aigg-darwin-amd64.tar.gz"
-      sha256 "62da7336f8b626aea2ec06e9b0e80a4714e4431a9af565c72fecdee2e3f97881"
+      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.8/aigg-darwin-amd64.tar.gz"
+      sha256 "53a47996f229c787580b9ac76eb84df39eee0de3032b1d112bf26161b0b71efe"
     end
     on_arm do
-      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.7/aigg-darwin-arm64.tar.gz"
-      sha256 "77f42cf871047c6afb6214b2faecef23ac6d6705197e6bc93360d5da32436823"
+      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.8/aigg-darwin-arm64.tar.gz"
+      sha256 "df3b28bc9c5eea32d1121fbdb61cb4f0d6d0361cc1d362638a7e9033508879b7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.7/aigg-linux-amd64.tar.gz"
-      sha256 "8e6e4587ab396b21a4c1d12050456269986ab50769f0f30108f399e98669e48f"
+      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.8/aigg-linux-amd64.tar.gz"
+      sha256 "cbcc6c779105bf9953e9b11e3ddcebe0b240b52d6b9fd035a4db0559f633dbbe"
     end
     on_arm do
-      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.7/aigg-linux-arm64.tar.gz"
-      sha256 "fd04dd88bd6504c73444dfe527d0ffed8351288b5a302c1a311b056d24077589"
+      url "https://github.com/aupeachmo/aigogo/releases/download/v0.0.8/aigg-linux-arm64.tar.gz"
+      sha256 "03d86e777848ae26fdfcc29a2774c9fdc15887739adc07ad9034a47b20c4216c"
     end
   end
 
